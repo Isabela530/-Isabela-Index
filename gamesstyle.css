@@ -1,0 +1,51 @@
+/* Body styleswith an duck theme quack*/
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #184ab6; 
+    color: #dbc927; 
+    text-align: center;
+    padding: 30px;
+}
+
+/* Heading styles */
+h1 {
+    /*Include the fontsize and make it look nice*/
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15em;
+    margin-bottom: 10;
+    color: #ffd700; 
+}
+/*header 2 style*/
+h2{
+margin-bottom: 15px;    
+}
+ h3 {
+    margin-bottom: 20px;
+}
+
+/* Form and button styles */
+form {
+    margin-bottom: 20px;
+}
+/*button style*/
+button {
+    background-color: #02a1b6;
+    color: #ffd700;
+    border: 2px solid #f85205;
+    padding: 10px 20px;
+    font-size: 1.1em;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+/*button placement*/
+button:hover {
+    background-color: #ffd7
+}
+/*Duck Picture*/
+#duck {
+    width: 80px;
+    position: absolute;
+    bottom: 20px;
+    left: 100px; 
+    transition: top;
+}
